@@ -27,6 +27,6 @@ export class WikipediaServiceService {
     return this.jsonp
                 .get(wikiUrl, { search: params })
                 .toPromise()
-                .then((response) => <string[]>response.json()[1]);
+                .then((response) => <string[]>response.json()[3]);
   }
 }
