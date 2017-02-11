@@ -14,7 +14,7 @@ export class WikipediaServiceService {
 
   search(term: string) {
     
-    let wikiUrl = 'http://en.wikipedia.org/w/api.php';
+    let wikiUrl = '//en.wikipedia.org/w/api.php';
 
     var params = new URLSearchParams();
     params.set('action', 'opensearch');
